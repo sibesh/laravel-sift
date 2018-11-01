@@ -1,0 +1,19 @@
+{
+    "name": "sibesh/laravel-sift",
+    "description": "Sift Science package to integrate with laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sibesh Dangol",
+            "email": "sibesh@hotmail.com"
+        }
+    ],
+    "require": {
+        "siftscience/sift-php" : "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sibesh\\LaravelSift\\": "src/"
+        }
+    }
+}
